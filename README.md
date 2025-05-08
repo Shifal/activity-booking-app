@@ -55,6 +55,14 @@ Activities:
   Description: Create one or more activities (requires login)
   Body: Array of objects with title, description, location, date, time
 
+Bookings:
+- GET /api/bookings/myBookings
+  Description: get the booking which user have booked
+
+- POST /api/bookings/bookActivities
+  Description: book an activity which is available
+  Body:pass activityId 
+
 
 Notes:
 ------
