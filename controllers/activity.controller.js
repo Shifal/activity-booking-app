@@ -12,11 +12,6 @@ export const listActivities = async (req, res) => {
 export const createActivity = async (req, res) => {
   try {
     const activities = req.body;
-
-    if (!Array.isArray(activities)) {
-      return res.status(400).json({ message: 'Body must be an array of activities' });
-    }
-
     const saved = await Activity.insertMany(activities);
     res.status(201).json(saved);
   } catch (err) {

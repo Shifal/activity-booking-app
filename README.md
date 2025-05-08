@@ -29,7 +29,7 @@ Setup Instructions:
    mongod
 
 5. Start the server
-   npm run dev
+   npm run start
 
 6. The server should now be running at:
    http://localhost:5000
