@@ -22,9 +22,9 @@ app.use('/api/activities', activityRoutes);
 app.use('/api/bookings', bookingRoutes);
 
 app.get('/', (req, res) => {
-  res.send('🚀 Activity Booking API running!');
+  res.send('Activity Booking API running!');
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 }); 

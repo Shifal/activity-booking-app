@@ -63,6 +63,14 @@ Bookings:
   Description: book an activity which is available
   Body:pass activityId 
 
+Tech Stack:
+  Backend: Node.js, Express.js
+  Database: MongoDB (with Mongoose)
+  Authentication: JWT (JSON Web Token)
+  Validation: Joi
+  Password Security: Bcrypt
+  Deployment: Render (optional)
+  Testing: Postman
 
 Notes:
 ------
